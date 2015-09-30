@@ -38,8 +38,8 @@ gaugeOutput <- function(outputId, title="Title", min=0, max=1, units="", width="
   tagList(
     singleton(tags$head(
       initResourcePaths(),
-      tags$script(src = 'shinyDash/justgage/justgage.1.0.1.min.js'),
-      tags$script(src = 'shinyDash/justgage/raphael.2.1.0.min.js'),      
+      tags$script(src = 'shinyDash/justgage/justgage.1.1.0.min.js'),
+      tags$script(src = 'shinyDash/justgage/raphael.2.4.0.min.js'),      
       tags$script(src = 'shinyDash/justgage/justgage_binding.js')
     )),
     tags$div(id = outputId, class = "justgage_output", style = 
